@@ -6,7 +6,6 @@
 
 .main{
     background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);    /*background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);*/
-    /*background-image: url("Images/mount_image.jpg");*/
     position: relative;
     width: 100%;
     background-attachment: fixed;
@@ -45,6 +44,19 @@ p{
 	font-size: 1.3em; 
 }
 
+.button_format{
+    background-color: #4CAF50; /* Green */
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
 
 
 .stem_right_bg_white{

@@ -15,7 +15,8 @@
         function changeImage() {
             var image = document.getElementById('pfpImage');
             var title = document.getElementById('title');
-            var para = document.getElementById('paragraph');
+            var para = document.getElementById('paragraph') 
+            var button = document.getElementById('button1');
 
 
             if (image.src.match("images/profilePic2.jpeg")) {
@@ -24,17 +25,18 @@
                 title.classList.toggle('change_font'); 
                 para.classList.toggle('change_font'); 
                 title.innerHTML = "About Me (Goofified)";
+                button.innerHTML = "Click to un-goofify website"; 
             } else {
                 image.src = "images/profilePic2.jpeg";
                 image.classList.toggle('rotate'); 
                 title.classList.toggle('change_font'); 
                 para.classList.toggle('change_font'); 
                 title.innerHTML = "About Me";
+                button.innerHTML = "Click to goofify website"; 
             }
 
-           
             console.log(title.innerHTML);
-            //image.src = "images/profilePic.png" 
+            //image.src = "images/profilePic.png"
 
             return false; 
         }
@@ -64,8 +66,6 @@
 			<p class= " "id = "paragraph"> Hey, I'm Daiwik, and I am a first year Computer Science student at Georgia Tech from Franklin, Massachusetts. I am passionate about improving the human condition using my computer science skills, especially through assistive technology projects. My greatest experience has been creating computer mice for people with Parkinson's disease. I loved working with real clients and making something that had a direct positive impact on their lives. I hope to continue making an impact in the community through Bits of Good! </p>
 		</div>
 	</div>
-
-    
 
 </body>
 </html>
